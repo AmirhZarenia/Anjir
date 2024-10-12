@@ -1,0 +1,629 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Sahel", Sans-serif;
+    font-weight: 500;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    padding-top: 20px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+}
+
+.mtn {
+    margin: 0 10px;
+}
+
+.span1 {
+    font-size: 1.4em;
+    color: #0E6800;
+    font-family: "Sahel", Sans-serif;
+    font-weight: 700;
+}
+
+img {
+    height: 65px;
+    width: 65px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    height: 80px;
+    background-color: #0E6800;
+}
+
+.fot {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.fot a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fot a:hover {
+    color: #FFD200;
+}
+
+.inp {
+    display: flex;
+    padding-right: 90px;
+}
+
+.inp input {
+    width: 120px;
+}
+
+.sort {
+    width: 100%;
+    margin-top: 20px;
+    height: 120px;
+}
+
+.sort-id {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #0E6800;
+}
+
+.khat {
+    margin-top: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0E6800;
+}
+
+.sort-btm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.sort-btm a {
+    text-decoration: none;
+    width: 15%;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .5);
+    background-color: #0E6800;
+    color: #fff;
+    padding: 10px 0 10px 0;
+    transition: 500ms;
+}
+
+.sort-btm a:hover {
+    background-color: gold;
+    color: black;
+    border: 1px solid gold;
+}
+
+.shop {
+    width: 100%;
+}
+
+.mtn-anjir {
+    padding: 15px 5px;
+    font-size: 2em;
+    color: #0E6800;
+}
+
+.khat2 {
+    margin-top: -25px;
+    color: #0E6800;
+}
+
+.p2 {
+    margin-top: -21px;
+    color: #0E6800;
+}
+
+.anjir {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.anjir-1 {
+    border-radius: 20px;
+    width: fit-content;
+    margin-top: 20px;
+    background-color: #ECECEC;
+    transition: 300ms;
+}
+
+.anjir-2 {
+    border-radius: 20px;
+    width: fit-content;
+    margin-top: 20px;
+    background-color: #ECECEC;
+    transition: 300ms;
+}
+
+.anjir-3 {
+    border-radius: 20px;
+    width: fit-content;
+    margin-top: 20px;
+    background-color: #ECECEC;
+    transition: 300ms;
+}
+
+.li1 {
+    list-style-image: url(./aks/note.svg);
+
+}
+
+.li2 {
+    list-style-image: url(./aks/law.svg);
+
+}
+
+.li3 {
+    list-style-image: url(./aks/credit-card.svg);
+
+}
+
+.li4 {
+    list-style-image: url(./aks/clock-fill.svg);
+
+}
+
+
+li {
+    text-indent: 0px;
+    /* also works when solely applied to the <ul> */
+
+}
+
+/*  */
+
+.anjir-1 li {
+    font-size: 1.3em;
+    margin: 12px 50px;
+
+}
+
+.anjir-1 li:nth-child(1) {
+    border-bottom: 1px dotted #0E6800;
+    padding: 2px;
+}
+
+.anjir-1 li:nth-child(2) {
+    border-bottom: 1px dotted #0E6800;
+    padding: 2px;
+}
+
+.anjir-1 li:nth-child(3) {
+    border-bottom: 1px dotted #0E6800;
+    padding: 2px;
+}
+
+.anjir-1:hover {
+    background-color: #FFD200;
+}
+
+.anjir-1 img {
+    height: 350px;
+    width: 350px;
+}
+
+/*      */
+
+.anjir-2 li {
+
+    font-size: 1.3em;
+    margin: 12px 50px;
+
+}
+
+.anjir-2 li:nth-child(1) {
+    border-bottom: 1px dotted #0E6800;
+    padding: 2px;
+}
+
+.anjir-2 li:nth-child(2) {
+    border-bottom: 1px dotted #0E6800;
+    padding: 2px;
+}
+
+.anjir-2 li:nth-child(3) {
+    border-bottom: 1px dotted #0E6800;
+    padding: 2px;
+}
+
+.anjir-2:hover {
+    background-color: #FFD200;
+}
+
+.anjir-2 img {
+    height: 350px;
+    width: 350px;
+}
+
+
+/*      */
+
+.anjir-3 li {
+
+    font-size: 1.3em;
+    margin: 12px 50px;
+
+}
+
+.anjir-3 li:nth-child(1) {
+    border-bottom: 1px dotted #0E6800;
+    padding: 2px;
+}
+
+.anjir-3 li:nth-child(2) {
+    border-bottom: 1px dotted #0E6800;
+    padding: 2px;
+}
+
+.anjir-3 li:nth-child(3) {
+    border-bottom: 1px dotted #0E6800;
+    padding: 2px;
+}
+
+.anjir-3:hover {
+    background-color: #FFD200;
+}
+
+.anjir-3 img {
+    height: 350px;
+    width: 350px;
+}
+
+/*    about      */
+
+
+.about {
+    max-width: 1200px;
+    height: 380px;
+    border: 1px #0E6800 dotted;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about1 {
+    width: 100%;
+    height: fit-content;
+    font-size: 1.2em;
+    color: #0E6800;
+    margin-top: 5px;
+}
+
+
+
+.about2 p {
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fot-end {
+    width: 100%;
+    background-color: #F7F7F7;
+    display: flex;
+    border-top: 2px solid #beb3b3;
+    justify-content: space-around;
+    margin-top: 25px;
+
+}
+
+.rast li {
+    text-decoration: none;
+    font-size: 1.1em;
+    margin: 25px;
+    margin-right: 40px;
+    width: 320px;
+    list-style: none;
+}
+
+.lir1 span {
+    margin-top: -35px;
+    margin-right: -35px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.lir2 span {
+    margin-top: -35px;
+    margin-right: -35px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.lir3 span {
+    margin-top: -25px;
+    margin-right: -35px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.lir4 span {
+    margin-top: -25px;
+    margin-right: -35px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.lir6 span {
+    margin-top: -25px;
+    margin-right: -35px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*    rast end    start vasat     */
+
+.vasat a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin: 25px;
+    transition: 300ms;
+}
+
+.vasat a:hover {
+    font-size: 1.2em;
+}
+
+
+
+/*  vasat end    start app */
+.app {
+    margin-top: 6px;
+    width: 300px;
+}
+
+.app h1 {
+    margin-right: 35px;
+}
+
+.app p {
+    margin-top: 30px;
+}
+
+.app img {
+    width: 220px;
+    margin: 30px;
+}
+
+
+/*   left start  */
+
+
+.left {
+    margin-left: 15px;
+}
+
+.left h1 {
+    margin-top: 7px;
+}
+
+.left img {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.left-p1 {
+    margin-top: 20px;
+}
+
+.left-p2 {
+    margin-top: 10px;
+    width: 340px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.sub {
+    font: bolder;
+    background-color: #FFD200;
+    font-size: 1.8em;
+    margin-top: 10px;
+    width: 340px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.amir {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    height: 35px;
+    justify-content: space-around;
+}
+
+.amir-dev {
+    color: #fff;
+    margin-top: 8px;
+}
+
+.amir-dev2 {
+    color: #fff;
+    margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                        media queri                         */
+
+@media screen and (max-width: 900px) {
+    .fot a {
+        font-size: 0.8em;
+        margin-left: 20px;
+        margin-right: -10px;
+    }
+
+    .inp input {
+        height: 20px;
+        width: 40px;
+        padding-left: 20px;
+    }
+
+    .about {
+        height: auto;
+
+    }
+
+    .about2 {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .about1 {
+        margin-right: 10px;
+    }
+
+    .inp {
+        padding-left: 40px;
+    }
+
+    .sort-btm {
+        flex-direction: column;
+    }
+
+    .sort-btm a {
+        width: 100%;
+    }
+
+    .mtn-anjir {
+        margin-top: 350px;
+        margin-right: 10px;
+    }
+
+    .shop {
+        margin-top: -150px;
+    }
+
+    .anjir {
+        padding-top: 10px;
+        padding-right: 10px;
+        flex-direction: column;
+    }
+
+    .khat {
+        display: none;
+    }
+
+    .fot-end {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rast {
+        margin-left: auto;
+    }
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .fot {
+        display: none;
+    }
+
+    .inp input {
+        width: 300px;
+        height: 30px;
+    }
+
+    .sort-id {
+        font-size: 1em;
+    }
+
+    .anjir {
+        flex-direction: column;
+    }
+
+    .fot-end {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+    .fot {
+        display: none;
+    }
+
+    .about2 {
+        font-size: 0.8em;
+    }
+
+    .about1 {
+        font-size: 1em;
+    }
+
+
+    .anjir {
+        flex-direction: column;
+    }
+
+    .vasat {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inp input {
+        width: 200px;
+        height: 30px;
+    }
+
+    .amir-dev {
+        font-size: 0.75em;
+    }
+
+    .amir-dev2 {
+        font-size: 0.75em;
+    }
+
+}
